@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <!-- Font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar + Banner -->
+  <header class="main-header" id="home">
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <!-- navbar header -->
+        <header class="nav-header">
+          <img src="./images/logo.svg" alt="Logo">
+          <button class="nav-toggle">
+            <img src="./images/icon-hamburger.svg" alt="Hamburger icon">
+          </button>
+        </header>
+        <!-- End navbar header -->
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#" class="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- banner -->
+    <div class="banner">
+        <h1>We are creatives</h1>
+        <img src="./images/icon-arrow-down.svg" alt="Arrow Down">
+    </div>
+    <!-- End banner -->
+  </header>
+  <!-- End Navbar + Banner -->
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <article class="about-transform">
+      <div class="img-transform"></div>
+      <div class="text-content">
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <span>Learn more</span>
+      </div>
+    </article>
+    <article class="about-standout">
+      <div class="img-standout"></div>
+      <div class="text-content">
+        <h2>Stand out to the right audience</h2>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers,
+          and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <span>Learn more</span>
+      </div>
+    </article>
+  </section>
+  <!-- End about section -->
+
+  <!-- services section -->
+  <section class="services" id="services">
+    <article>
+      <div class="img-graphic-design"></div>
+      <div class="text-content">
+        <h3 class="graphic">Graphic design</h3>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+    </article>
+    <article>
+      <div class="img-photography"></div>
+      <div class="text-content">
+        <h3 class="photography">Photography</h3>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality photos that
+          improve your business image.
+        </p>
+      </div>
+    </article>
+  </section>
+  <!-- End services section -->
+
+  <!-- testimonials section -->
+  <section class="testimonials" id="testimonials">
+    <h3>Client testimonials</h3>
+    <div class="content">
+      <article>
+        <img src="./images/image-emily.jpg" alt="image-emily">
+        <p>
+          We put our trust in Sunnyside and they delivered, making sure our needs
+          were met and deadlines were always hit.
+        </p>
+        <span class="name">Emily R.</span>
+        <span class="role">Marketing Director</span>
+      </article>
+          <article>
+            <img src="./images/image-thomas.jpg" alt="image-thomas">
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+              success made it a satisfying and enjoyable experience.
+            </p>
+            <span class="name">Thomas S.</span>
+            <span class="role">Chief Operating Officer</span>
+          </article>
+          <article>
+            <img src="./images/image-jennie.jpg" alt="image-jennie">
+            <p>
+              Incredible end result! Our sales increased over 400%
+              when we worked with Sunnyside. Highly recommended!
+            </p>
+            <span class="name">Jennie F.</span>
+            <span class="role"> Business Owner</span>
+          </article>
+    </div>
+      </section>
+      <!-- End testimonials section -->
+      
+      <!-- gallery section -->
+      <section class="gallery" id="projects">
+        <div class="mobile-container">
+          <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
+          <img src="./images/mobile/image-gallery-orange.jpg" alt="image-gallery-orange">
+          <img src="./images/mobile/image-gallery-cone.jpg" alt="image-gallery-cone">
+          <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="image-gallery-sugar-cubes">
+        </div>
+        <div class="desktop-container">
+          <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
+          <img src="./images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange">
+          <img src="./images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone">
+          <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugar-cubes">
+        </div>
+      </section>
+      <!-- End gallery section -->
+
+  <!-- footer -->
+  <footer>
+    <!-- footer logo -->
+    <div class="logo-wrapper">
+      <img src="./images/logo.svg"  class="footer-logo" alt="Dark green logo">
+    </div>
+    <!-- End footer logo -->
+    <!-- footer nav -->
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <!-- End footer nav -->
+    <!-- social media -->
+    <div class="social-media-container">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-pinterest"></i>
+    </div>
+    <!-- End social media -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/kinyichukwu">KINYICHUKWU</a>.
+    </div>
+  </footer>
+  <!-- End footer -->
+  <!-- javascript -->
+  <script src="./script.js"></script>
+</body>
+</html>
